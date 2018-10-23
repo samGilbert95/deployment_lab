@@ -12,7 +12,7 @@ app.use(express.static('public'));
 app.get('/' , function(req , res){
   res.render("index");
 });
-//test2
+//test21
 // connect to database
 if(process.env.DB_HOST) {
 
